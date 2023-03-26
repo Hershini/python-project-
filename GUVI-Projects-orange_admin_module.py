@@ -32,5 +32,3 @@ class AdminPage:
         statu_list = self.driver.find_elements(By.XPATH, OrangeHrmElements.status_dropdown_list_XPATH)
         for list_of_item in statu_list:
             self.status_dropdown_expect_result.append(list_of_item.text)
-"
- https://github.com/mujahithas/GUVI-Projects/blob/main/orange_HRM_project_2/pages/orange_admin_module.py#:~:text=from%20selenium.webdriver%20import%20Keys,status_dropdown_expect_result.append(list_of_item.text)
